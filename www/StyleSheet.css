@@ -1,0 +1,132 @@
+/*
+Author: Ethan Steidl
+Description: CSS for Home and Help pages
+
+*/
+
+/* Style the body */
+body {
+     font-family: Arial;
+     margin: 0;
+     background-image: url("bone_pattern.jpg");
+     
+}
+     
+/*Styles header*/
+.header {
+     padding: 10px;
+     text-align: Left;
+     background: #333;
+     color: white;
+     font-size: 20px;
+}
+
+/* Style the main page content */
+.main_container {
+     display: flex;
+     height: 300px;
+}
+
+/* Style the main page stickman zone */
+.main_container_left {
+     width: 35%;
+}
+
+/* Style the main action zone */
+.main_container_right {
+     width: 65%;
+
+}
+
+/* Style the help page headings */
+.help_headings {
+     font-family: 'Brush Script MT', cursive;
+}
+
+/* Style the navigation bar */
+.navigation {
+     color:rgb(63, 53, 65);
+     font-size: 20px;
+}
+
+/* Style the navigation zone */
+.top_navigation {
+     overflow: hidden;
+     background-color: #333;
+}
+
+/* Style the navigation hyperlinks */
+.top_navigation a{
+     padding: 14px 16px;
+     float: left;
+     color: #f2f2f2;
+     font-size: 18px;
+     text-align: center;
+     text-decoration: none;
+}
+
+/* Style the navigation hyperlinks */
+.top_navigation a:hover {
+     background-color: rgb(255, 255, 255);
+     color: black;
+}
+
+/* Style the navigation hyperlinks */
+.top_navigation a.active {
+     background-color: #4CAF50;
+     color: white;
+}
+
+/* Alligns stickman body parts */
+.mains_body_part {
+     position: absolute;
+     top: 25px;
+     left: 25px;
+}
+
+/* Set content padds */
+.content {padding:20px;}
+
+/* places border around stickman */
+.main_body_display {
+     padding:0px;
+     border-style: dashed;
+     
+}
+
+/* removes spacing between stickman parts */
+.main_body_part {
+     font-size: 0;
+}
+
+/* Sets spacing for displaying stickman head */
+.main_body_head {
+     padding-left:4px;
+}
+
+/* Sets spacing for displaying stickman Larm */
+.main_body_larm {
+     padding-left:3px;
+}
+
+/* Sets spacing for displaying stickman Rarm */
+.main_body_rarm {
+     padding-left:-3px;
+}
+
+/* Styles all hyperlinks */
+a:link {
+     color: rgb(27, 197, 69);
+}
+
+/* Styles all hyperlinks */
+a:hover {
+     color: rgb(180, 12, 172);
+}
+
+/* Adjust table stizes */
+tr, tr * {
+     max-height: 30px !important;
+}
+
+

@@ -1,0 +1,211 @@
+<!-- 
+Author: Ethan Steidl
+Description: This file contains code to see the Name of the programmer,
+     the description of the program, the checklist 1 and 2 for grading, a 
+     description of how the CSS works in the progject, and the usage of 
+     the program
+
+-->
+
+<html>
+     <head>
+          <!-- Set the style sheets -->
+          <title>Help Page</title>
+          <link href="StyleSheet.css" rel="stylesheet" type="text/css">
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+          <!--this sets the icon of the webpage in the tabs to NULL-->
+          <link rel="shortcut icon" href="#">
+     </head>
+     <body>
+          <!-- Header block text -->
+          <div class="header">
+               <h1>The Stickman</h1>
+               <p>A project by Ethan Steidl</p>
+          </div>
+
+          <!-- Top navigation bar -->
+          <div class="top_navigation">
+                    <a href="index.php">Home</a>
+                    <a href="files.php">Files</a>
+                    <a class="active" href="help.html">Help</a>
+          </div>
+
+          <!-- On page navigation links -->
+          <h2 id="Navigation" class="help_headings">
+               Navigation Links
+          </h2>
+          
+          <p><a href="#Navigation">Navigation Links</a></p>
+          <p><a href="#Name">Name</a></p>
+          <p><a href="#Description">Description</a></p>
+          <p><a href="#Checklist1">Checklist 1</a></p>
+          <p><a href="#Checklist2">Checklist 2</a></p>
+          <p><a href="#CSSModifications">How CSS Modifications are Handled</a></p>
+          <p><a href="#Usage">Usage</a></p>
+
+          <!-- Set creator name -->
+          <h2 id="Name" class="help_headings">
+               Name
+          </h2>
+          Ethan Steidl
+
+          <!-- Description of project -->
+          <h2 id="Description" class="help_headings">
+               Description
+          </h2>
+          This is a prototype "make your own Stickman charecter" webcite. The user can create a stickman by
+          changing the head, body, left arm, right arm, and legs. Users can under/redo and upload their own images
+          to be ised for the stickman body. Users can upload, download, and save the stickman they have created.
+
+          The cite has three main pages; the main page, file management page, and the help page. Each of these
+          have a horizontal navigation bar with content below.
+
+
+          Name: Ethan Steidl </br>
+
+          <!-- First checklist -->
+          <h2 id="Checklist1" class="help_headings">
+               Checklist 1
+          </h2>
+          
+          Mark off what items are complete, and put a P if partially complete. If 'P' include how to test what is working for partial credit below the checklist line.
+
+          2a and 2b are the same tier. They are noted only for category clarity.</br></br>
+
+          1) Basic content	24</br>
+          _X_ All 3 pages present	</br>
+          _X_ Header in all pages in correct spot	</br>
+          _X_ Nav bar in all pages in correct spot	</br>
+          _X_ All interaction buttons added to main page in correct spot	</br>
+          _X_ Properly display the default stickman in main page in correct spot	</br>
+          _X_ Placeholder for file upload in file page in correct spot	</br>
+          _X_ Placeholder for file with load/download in correct spot	</br>
+          _X_ All headings added to Help page in correct order	</br>
+          _X_ Help page content filled in	</br>
+          _X_ Within page link help page working	</br></br>
+
+          2a) CSS rules*	28</br>
+          _X_ Background color/image	</br>
+          _X_ CSS header	</br>
+          _X_ CSS nav bar color/image	</br>
+          _X_ CSS &lta&gt rule	</br>
+          _X_ No gaps in stickman images	</br>
+          _X_ Stickman board	</br>
+          _X_ Help heading font change	</br></br>
+
+
+          2b) Main page actions *	18</br>
+          _X_ Able to change at least 1 piece of the stickman	</br>
+          _X_  Able to change every piece of the stickman, 1 at a time	</br></br>
+
+          * There must be no styling/script inside the HTML/PHP files.</br>
+
+          The grade you compute is the starting point for course staff, who reserve the right to change the grade if they disagree with your assessment and to deduct points for other issues they may encounter, such as errors in the submission process, naming issues, etc.
+          
+          <!-- Second Checklist -->
+          <h2 id="Checklist2" class="help_headings">
+               Checklist 2
+          </h2>
+
+          Mark off what items are complete, and put a P if partially complete. If 'P' include how to test what is working for partial credit below the checklist line.</br>
+
+          tier-less) Undo/redo pattern**	36</br>
+          _X_ Undo/redo OOP followed	</br>
+          _X_ Able to do at least 1 undo/redo for 1 piece change </br>
+          _X_ Able to do at least 1 undo/redo for 1 predesigned change	</br>
+          _X_ Able to do at least 5 undo/redo for 1 piece change 	</br>
+          _X_ Able to do at least undo/redo for 1 predesigned change	</br></br>
+
+
+          1) Finish Main page actions	10</br>
+          _X_ Able to change to at least one predesigned stickman	</br>
+          _X_ Able to change to all predesigned stickmen	</br></br>
+
+          2) Tier: Files	48</br>
+          _X_ Able to save the current stickman 	</br>
+          _X_ Stay on the main page with a save	</br>
+          _X_ Able to download at least one file (default is ok)	</br>
+          _X_ Able to download an application generated file	</br>
+          _X_ Able to upload a file	</br>
+          _X_ Loading a file redirects back to the main page	</br>
+          _X_ Loaded file properly displays with some file 	</br>
+          _X_ Loaded file properly displays with app generated file	</br>
+          _X_ All functionality still works after file event </br>
+          _X_ Able to save, download, upload, and load that same file	</br></br>
+
+          3) Help page properly updated	</br></br>
+
+          4) Extensions	30</br>
+          Extension 1: 2b 10pt Files can be drag and dropped into the dashed box on the File page. </br>
+          Extension 2: 2c 5pt At least 2 files can be saved/loaded/etc. on the server.</br>
+          Extension 3: 2d 5pt Unlimited files can be saved/loaded/etc. on the server.</br>
+          Extension 4: 2e 10pt loading from the files page preservers Undo/Redo functionality</br>
+          Extension 5: 1a 5pt The buttons on the files page use a feature called transition duration. This was found on https://www.w3schools.com/css/css3_transitions.asp. It allows to change between two CSS options on an event like hover</br>
+          Extension 6: History kept on Soft Reset 10pt My stickman history is saved as long as the TAB that opnened index.php is not closed. Data is saved to the TABs session data.
+          **must have grading tag for points.</br></br>
+
+
+          The grade you compute is the starting point for course staff, who reserve the right to change the grade if they disagree with your assessment and to deduct points for other issues they may encounter, such as errors in the submission process, naming issues, etc.</br>
+          
+          <!-- CSS Modifications -->
+          <h2 id="CSSModifications" class="help_headings"> 
+               How CSS modifications are handled
+          </h2>
+
+          CSS rules for all pages are in "StyleSheet.css". Additional rules for the files page are in "StyleSheetFiles.css".</br>
+          How the checklist CSS is implemented is described below.</br>
+          Background color/image - the "body" css tag sets the font and image of the Background.</br>
+          CSS header - the ".header" css sets the format for the header block. Changes padding, alignment, background, color, and font size. Makes block gold in color.</br>
+          CSS nav bar color/image - set by the ".top_navigation", a, a:active, and a:hover css rule. Changes background color and hover colors of nav elements</br>
+          CSS &lta&gt rule - set by "a:link" and "a:hover" css rules. Changes hover color and before click color of hyperlinks.</br>
+          No gaps in stickman - Hanled with ".main_body_part" and ".main_body_display" tags setting space between pictures to 0px.</br>
+          Stickman board - set by ".main_body_display" drawing the dasshed line around the man.</br>
+          Help heading font change - ".help_headings" tag sets the font change.</br>
+          The main page is broken into a left and right box managed by ".main_container_left" and ".main_container_right". These set the 
+               width of each box. The first for the stickman, the second for everything else.</br>
+
+
+          Files page is broken into multiple boxes managed by ".files_container", ".files_container_left", and ".files_container_right".
+               This sets the size and display types of the containers.</br>
+          There is a hidden stickman on the page to aid in holding data from the previous page, this is modified with ".hidden_box".</br>
+          The file drag drop box is modified with ".drop-zone", ".drop-zone--over", ".drop-zone__thumb", ".drop-zone__input", and ".drop-zone__thumb::after".
+               These are then changed with javascript to create a dynamic file drop zone that lights up when files are hovered above it. Then when
+               files are placed inside, there will be a preview of the file placed with the name of the file dropped in. This code is based on Dcode's 
+               example athttps://www.youtube.com/watch?v=Wtrin7C4b7w and https://codepen.io/dcode-software/pen/xxwpLQo</br>
+          The file load and delete buttons are styled with ".files_file_listing button" and ".files_file_listing button:hover". These allows
+               a slow transition of color when hovering above the buttons on the file page for individual files.</br>
+          
+          <!-- Usage -->
+          <h2 id="Usage" class="help_headings"> 
+               Usage
+          </h2>
+          Main Page:</br>
+           Select a body part to the right the stickman to swap his body parts to the selected part.</br>
+               Then the user can save the current configuration of the stickman by typing a name in the box to the right or</br>
+               the "Save Config" button and click the "Save Config" button. Do not include the ".json" file extension, this configuration will save as a JSON with the</br>
+               name provided. To load a configuration from the Configuration Options section, type the exact filename that you would</br>
+               like to load into the "Load Config" box and click the "Load Config" button. Any change to the stickman can be undon or redon by</br>
+               clicking the "Undo" or "Redo" buttons. State of stickman persist as long as the tab in your browser is open.</br></br>
+          Select "undo" to undo the previous body change.</br>
+          Select "redo" to go to the state before "undo" action.</br>
+          Select "Save Config" to save your body to the server with the name in the box to the right of "Save Config". File saved as "YOURNAME.json".</br>
+          Select "Load Config" to load a body configuration from the configuration options at the bottom. Type the configuration in the box to the right of "Load Config" exactly as it displays in the Configuration Options</br>
+
+     </br></br>
+          Files Page:</br> All the body part and configuration files are displayed here. Clicking load by any of these files will load that body part onto</br>
+               the stickman and redirect to the main page. Clicking delete will remove the file from the server. Clicking on the filename will download the File.</br>
+               Clicking load will load the file.
+               To upload either a config file or part file, drag and drop your files into the drag/drop box in the top left. You can also click the box to upload</br>
+               a file from the computer. The uploaded file will use the name of the file given and overwrite the filename if it already exists. Part files must be a PNG and
+               configuration files must be a JSON. To see the format of the JSON, downlaod the "default.json" to see how it is configured. Then: </br></br>
+               If the file was a part file:</br>
+                    select the appropriate part in the first dropdown.</br>
+                    Select "Upload as Part" in the second dropdown.</br>
+                    Click "Upload"</br></br>
+               If the file was a configuration file:</br>
+                    Select "Upload as Configuration" in the second dropdown.</br>
+                    Click "Upload"</br></br>
+
+     </body>
+</html>

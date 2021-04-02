@@ -1,0 +1,7 @@
+{
+    "head": "http:\/\/dev.cse.sdsmt.edu\/~7381806\/stickman_images\/head\/stickman-head_Default.png",
+    "body": "http:\/\/dev.cse.sdsmt.edu\/~7381806\/stickman_images\/body\/stickman-body_Default.png",
+    "larm": "http:\/\/dev.cse.sdsmt.edu\/~7381806\/stickman_images\/larm\/stickman-lArm_Default.png",
+    "rarm": "http:\/\/dev.cse.sdsmt.edu\/~7381806\/stickman_images\/rarm\/stickman-rArm_Default.png",
+    "legs": "http:\/\/dev.cse.sdsmt.edu\/~7381806\/stickman_images\/legs\/stickman-legs_Default.png"
+}
